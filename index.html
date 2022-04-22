@@ -13,34 +13,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="css/w3css.css" />
+    <link rel="stylesheet" href="css/style.css">
     <link
       rel="stylesheet"
       href="https://www.w3schools.com/lib/w3-theme-indigo.css"
     />
     <title>W3CSS WEBSITE APP</title>
-    <style>
-      .hero {
-        background: url("../images/burger12comp512.jpg") no-repeat center;
-        background-size: cover;
-        height: 500px;
-        padding: 100px 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* margin-top: 150px; */
-      }
-
-      .hero h1 {
-        font-size: 56px;
-      }
-
-      @media only screen and (max-width: 576px) {
-        .hero {
-          margin-top: 150px;
-        }
-      }
-    </style>
-  </head>
+    </head>
   <body
     style="
       font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen,
@@ -53,7 +32,7 @@
       <span class="w3-bar-item w3-mobile w3-xlarge">MangoSpot</span>
       <span class="w3-bar-item w3-mobile w3-right">
         <a
-          href="#home"
+          href="/"
           class="w3-bar-item w3-button w3-mobile w3-theme-l3 w3-hover-light-blue w3-round w3-margin-right"
           >Home</a
         >
@@ -76,16 +55,14 @@
     </div>
 
     <!--hero section  -->
-    <div class="hero" id="home">
+    <div class="hero" id="/">
       <div class="w3-container w3-center w3-text-white">
         <h1 class="w3-text-shadow w3-animate-opacity">Go Anywhere</h1>
         <p class="w3-text-shadow w3-animate-left">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium
-          molestiae incidunt iusto debitis magni! Harum odio doloribus sint
-          exercitationem placeat modi repellat eius, ad illum eligendi
-          voluptatem earum autem quod.
+         MongoSpot Digital Services is the number 1 go to solutions providers for all things web development and associated services. Our wealth of experience and team sets us apart deliveirng professional and quality solution for our happy clients.
         </p>
-        <button
+        <button 
+          onclick="document.getElementById('mymodal').style.display='block'"
           class="w3-button w3-large w3-hover-light-blue w3-theme w3-round"
         >
           Get Started
@@ -99,8 +76,7 @@
         <i class="fa fa-home w3-xxxlarge"></i>
         <h2>Welcome Home</h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora,
-          nisi. Delectus aliquam illo placeat ipsa fugit alias fugiat commodi?
+            Our wealth of experience and team sets us apart deliveirng professional and quality solution for our happy clients.
         </p>
       </div>
     </div>
@@ -111,8 +87,7 @@
         <i class="fa fa-cog w3-xxxlarge"></i>
         <h2>Let's Begin</h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora,
-          nisi. Delectus aliquam illo placeat ipsa fugit alias fugiat commodi?
+        Engage us for all your digital and web services needs and be assured that we will exceed your expectation.
         </p>
       </div>
     </div>
@@ -144,14 +119,11 @@
 
               <div id="Demo1" class="w3-container w3-show">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Placeat, consequuntur tenetur! Quas odit omnis laborum, culpa
-                  magni repellendus asperiores nemo. Lorem ipsum, dolor sit amet
-                  consectetur adipisicing elit. Nobis dolorum harum at
-                  voluptatibus laudantium unde repudiandae corrupti animi, vero
-                  quod consequuntur non adipisci alias ratione sed placeat, modi
-                  sequi sapiente voluptatum. Rerum cumque deserunt corrupti
-                  nobis maxime corporis, quod deleniti!
+                 Contact any on our sales representatives near you and book a face-to-face session in our office to fully discuss your needs and expectations.
+
+                 We then send you an invoice and upon price agrrement, we will assemble a dedictaed team to deliver on your needs within 60days.
+
+                 We will continue to provide onsite and offsite support because your success is our success.
                 </p>
               </div>
             </div>
@@ -220,33 +192,33 @@
       <div class="w3-container">
         <div class="w3-row w3-padding-32">
           <div
-            class="w3-col m3 w3-center w3-panel w3-border w3-hover-border-blue w3-padding w3-round-large w3-section w3-animate-left"
+            class="w3-col m3 w3-theme-d1 w3-center w3-panel w3-border w3-hover-border-blue w3-padding w3-round-large w3-section w3-animate-left"
           >
-            <i class="fa fa-cloud w3-xxxlarge" style="color: darkblue"></i>
+            <i class="fa fa-cloud w3-xxxlarge"></i>
             <h3>Cloud Services</h3>
             <p>Affordable quality storage.</p>
           </div>
 
           <div
-            class="w3-col m3 w3-center w3-panel w3-border w3-hover-border-blue w3-padding w3-round-large w3-section w3-animate-top"
+            class="w3-col m3 w3-theme-d1 w3-center w3-panel w3-border w3-hover-border-blue w3-padding w3-round-large w3-section w3-animate-top"
           >
-            <i class="fa fa-server w3-xxxlarge" style="color: darkblue"></i>
+            <i class="fa fa-server w3-xxxlarge"></i>
             <h3>Web Development</h3>
             <p>Fast and profeesional apps.</p>
           </div>
 
           <div
-            class="w3-col m3 w3-center w3-panel w3-border w3-hover-border-blue w3-padding w3-round-large w3-section w3-animate-right"
+            class="w3-col m3 w3-theme-d1 w3-center w3-panel w3-border w3-hover-border-blue w3-padding w3-round-large w3-section w3-animate-right"
           >
-            <i class="fa fa-weibo w3-xxxlarge" style="color: darkblue"></i>
+            <i class="fa fa-weibo w3-xxxlarge"></i>
             <h3>Domain Hosting</h3>
             <p>Super fats one-click solution.</p>
           </div>
 
           <div
-            class="w3-col m3 w3-center w3-panel w3-border w3-hover-border-blue w3-padding w3-round-large w3-section w3-animate-bottom"
+            class="w3-col m3 w3-theme-d1 w3-center w3-panel w3-border w3-hover-border-blue w3-padding w3-round-large w3-section w3-animate-bottom"
           >
-            <i class="fa fa-shield w3-xxxlarge" style="color: darkblue"></i>
+            <i class="fa fa-shield w3-xxxlarge"></i>
             <h3>Cybersecurity Services</h3>
             <p>Protect your digital assets securely.</p>
           </div>
@@ -257,7 +229,7 @@
     <!-- Contact us -->
     <div class="contact w3-padding-large" id="contact">
       <div class="w3-container w3-center">
-        <h2>GET IN TOUCH WITH US</h2>
+        <h2 class="w3-xlarge">GET IN TOUCH WITH US</h2>
         <p>We are so happy to hear from you.</p>
       </div>
 
@@ -341,12 +313,53 @@
           Send
         </button>
       </form>
+
+      <div class="sicons">
+          <div class="w3-container w3-center">
+<span><a href="https://twitter.com"><i class="fa fa-twitter w3-xlarge" style="color:blue"></i></a></span>
+<span><a href="https://instagram.com"><i class="fa fa-instagram w3-xlarge w3-margin" style="color:red"></i></a></span>
+<span><a href="https://facebook.com"><i class="fa fa-facebook w3-xlarge" style="color:blue"></i></a></span>
+
+          </div>
+      </div>
     </div>
 
     <!-- Footer -->
     <footer class="w3-container w3-center w3-theme">
       <p>MangoSpot Web Services &copy; <span class="yr"></span></p>
     </footer>
+
+
+    <!-- The Modal -->
+<div id="mymodal" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container w3-theme">
+        <span onclick="document.getElementById('mymodal').style.display='none'"
+        class="w3-button w3-display-topright w3-xlarge">&times;</span>
+
+            <h2 class="w3-center">MongoSpot Registration Form</h2>
+          
+          <form class="w3-container w3-padding-24">
+            <label class="w3-text-light-blue"><b>First Name</b></label>
+            <input class="w3-input w3-border w3-light-grey" type="text" placeholder="Enter First Name">
+          
+            <label class="w3-text-light-blue"><b>Last Name</b></label>
+            <input class="w3-input w3-border w3-light-grey" type="text" placeholder="Enter Last Name">
+
+            <label class="w3-text-light-blue"><b>Email</b></label>
+            <input class="w3-input w3-border w3-light-grey" type="email" placeholder="Enter Email">
+
+            <label class="w3-text-light-blue"><b>Password</b></label>
+            <input class="w3-input w3-border w3-light-grey" type="password" placeholder="Enter Password">
+
+            <label class="w3-text-light-blue"><b>Confirm Password</b></label>
+            <input class="w3-input w3-border w3-light-grey" type="password" placeholder="Confirm Password">
+          
+            <button class="w3-btn w3-block w3-light-blue w3-margin-top">Register</button>
+          </form>
+      </div>
+    </div>
+  </div>
 
     <script>
       function myFunction(id) {
