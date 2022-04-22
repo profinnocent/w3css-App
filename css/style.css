@@ -1,0 +1,15 @@
+.hero{
+    background: url('../images/burger12comp512.jpg') no-repeat center;
+    background-size: cover;
+    height: 500px;
+    padding: 100px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.hero h1{
+    font-size: 56px;
+}
+
